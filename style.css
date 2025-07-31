@@ -175,6 +175,7 @@ body {
   font-weight: 700;
   cursor: pointer;
   transition: background-color 0.5s ease, transform 0.5s ease;
+  text-decoration: none;
 }
 
 .btn-cv:hover {
