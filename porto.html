@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Khaynan's Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+  <header class="header">
+    <div class="icons">
+      <a href="https://github.com/kaynnsc" target="_blank"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/kynansc_" target="_blank"><i class="fab fa-instagram"></i></a>
+      <a href="mailto:khaynanscyh@gmail.com"><i class="fas fa-envelope"></i></a>
+    </div>
+
+    <div class="title">Khaynan's Portfolio</div>
+
+    <nav class="nav">
+      <a href="index.html#skills">About me</a>
+      <a href="porto.html#works">Portofolio</a>
+      <a href="https://linkedin.com/in/khaynan-syaqhilla-cut-yuna-haryono-802ba8285" class="btn-contact" target="_blank">Contact Me</a>
+    </nav>
+  </header>
+
+  <section class="banner" id="about-me">
+    <div class="text-container-2">
+      <div class="hi-2">
+        <h1>Portfolio Projects</h1>
+        <div class="bla-bla-project-2">
+          <p>Collection of projects I have worked on in the past</p>
+        </div>
+      </div>
+    </div>
+  </section>
+    
+  <section class="porto-section">
+    <div class="porto-container">
+      <div class="porto-image">
+        <img src="" alt="" id="project-img">
+      </div>
+      <div class="porto-content">
+        <h2 id="project-title"></h2>
+        <p id="project-desc"></p>
+        <div id="project-link-container"></div>
+      </div>
+    </div>
+    <div class="info-section">
+      <div class="info-grid">
+        <div class="info-item">
+          <h3>Role</h3>
+          <p id="role-text"></p>
+        </div>
+        <div class="info-item">
+          <h3>Team</h3>
+          <p id="team-text"></p>
+        </div>
+        <div class="info-item">
+          <h3>Tools</h3>
+          <p id="tools-text"></p>
+        </div>
+        <div class="info-item">
+          <h3>Timeline</h3>
+          <p id="timeline-text"></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="page">
+      <button class="page-btn active" onclick="showProject(0)">1</button>
+      <button class="page-btn" onclick="showProject(1)">2</button>
+      <button class="page-btn" onclick="showProject(2)">3</button>
+      <button class="page-btn" onclick="showProject(3)">4</button>
+    </div>
+  </section>
+  
+  <footer class="footer">
+    <p>&copy; Designed by Khaynan Syaqhilla C.Y.H. using Codepen. All rights reserved.</p>
+  </footer>
+</body>
+</html>
